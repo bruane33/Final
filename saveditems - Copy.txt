@@ -1,174 +1,232 @@
 Civilization 3
 Strategy
 PC
+true
 Stanley Parable
 Puzzle
 PC
+true
 Rage
 First Person Shooter
 PC
+false
 Fallout 3
 RPG
 PC
+true
 Fallout: New Vegas
 RPG
 PC
+true
 Fallout 4
 RPG
 PS4
+true
 Hitman
 Stealth Action
 PS4
+true
 Doom (2016)
 First Person Shooter
 PS4
+true
 Doom
 First Person Shooter
 PC
+true
 Doom 2
 First Person Shooter
 PC
+true
 Doom Eternal
 First Person Shooter
 PS4
+true
 Super Mario Odyssey
 Platformer
 Switch
+true
 Alien: Isolation
 Horror
 PC
+true
 Zoombinis
 Puzzle
 PC
+true
 Phasmophobia
 Horror
 PC
+true
 Unravel
 Platformer
 PS4
+true
 Final Fantasy X
 RPG
 PS2
+true
 Elder Scrolls: Oblivion
 RPG
 PC
+true
 It Takes Two
 Platformer
 PS4
+true
 Hitman 2
 Stealth Action
 PS4
+true
 Red Dead Redemption 2
 3rd Person Shooter
 PS4
+true
 Grand Theft Auto 5
 3rd Person Shooter
 PC
+true
 Hitman 3
 Stealth Action
 PS4
+true
 Witcher 3: Wild Hunt
 RPG
 PC
+false
 Horizon: Zero Dawn
 RPG
 PS4
+true
 Doom (2016)
 First Person Shooter
 PC
+true
 Borderlands 2
 First Person Shooter
 PC
+true
 Far Cry 2
 First Person Shooter
 PC
+true
 Payday 2
 First Person Shooter
 PC
+true
 Far Cry
 First Person Shooter
 PC
+true
 Devour
 Horror
 PC
+true
 Resident Evil 7
 Horror
 PS4
+true
 Resident Evil 4
 Horror
 PS4
+true
 Bioshock
 First Person Shooter
 PC
+true
 Bioshock 2
 First Person Shooter
 PC
+true
 Bioshock: Infinite
 First Person Shooter
 PC
+true
 Far Cry 4
 First Person Shooter
 PS4
+true
 Civilization 5
 Strategy
 PC
+true
 Civilization 6
 Strategy
 Switch
+true
 Spelunky
 Platformer
 PS4
+true
 Spelunky 2
 Platformer
 Switch
+true
 Sim City 4
 Strategy
 PC
+true
 Far Cry 3
 First Person Shooter
 PC
+true
 Braid
 Puzzle
 PC
+true
 The Witness
 Puzzle
 PC
+true
 The Bridge
 Puzzle
 Switch
+true
 Baba Is You
 Puzzle
 Switch
+true
 XCOM: Enemy Unknown
 Strategy
 PC
+true
 Half-Life
 First Person Shooter
 PC
+true
 Half-Life 2
 First Person Shooter
 PC
+true
 Painkiller
 First Person Shooter
 PC
+true
 Payday
 First Person Shooter
 PC
+true
 FTL: Faster Than Light
 Strategy
 PC
+true
 Antichamber
 Puzzle
 PC
+false
 Outlast
 Horror
 PC
+true
 Outlast 2
 Horror
 PS4
+true
 Wargroove
 Strategy
 PC
+true
 Black Mesa
 First Person Shooter
 PC
+true
