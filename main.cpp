@@ -65,7 +65,6 @@ int main()
 
 
 
-    //INTRODUCTION
     std::cout << "Welcome to the Ruane Media Database!\nChoose an option to get started:\n";
     while (input != 0){
     std::cout << "1:Add Media\n2:Remove Media\n3:Next Unplayed Title\n4:Search By Name\n5:Search By Genre\n6:Search by System\n7:Search by ID\n8:List All\n9:List All Unplayed\n0:Quit\n";
