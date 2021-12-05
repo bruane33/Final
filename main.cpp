@@ -64,7 +64,6 @@ int main()
 //some intro
 
 
-
 //INTRODUCFTION
     std::cout << "Welcome to the Ruane Media Database!\nChoose an option to get started:\n";
     while (input != 0){
