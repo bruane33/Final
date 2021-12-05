@@ -61,6 +61,7 @@ int main()
         getline(reader2, isPlayed);
     }
     reader2.close();
+//some intro
 
 
 
