@@ -1,0 +1,24 @@
+Civilization 3
+Strategy
+PC
+true
+Stanley Parable
+Puzzle
+PC
+true
+Fallout 3
+RPG
+PC
+true
+Doom 2
+First Person Shooter
+PC
+true
+Doom Eternal
+First Person Shooter
+PS4
+false
+
+
+N/A
+false
