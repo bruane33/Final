@@ -167,7 +167,6 @@ int main()
     case 4: //SEARCH BY NAME
         system("CLS"); //Clear Screen
         searchByName(database);
-        break;
         break;//more changes
     case 5:
         system("CLS");//SEARCH BY GENRE
