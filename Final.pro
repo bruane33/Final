@@ -22,4 +22,9 @@ HEADERS += \
     media.h
 
 DISTFILES += \
+    UnitTestss/.gitignore \
     database.txt
+
+SUBDIRS += \
+    UnitTestss/UnitTestss.pro \
+    UnitTestss/UnitTestss.pro
