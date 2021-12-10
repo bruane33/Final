@@ -2,6 +2,7 @@
 #define MEDIA_H
 #include <iostream>
 
+//Creation of Media class
 class Media
 {
 public:

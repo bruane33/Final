@@ -1,236 +1,220 @@
-Civilization 3
-Strategy
-PC
-true
-Stanley Parable
-Puzzle
-PC
-true
 Rage
 First Person Shooter
 PC
-true
+0
 Fallout 3
 RPG
 PC
-true
+0
 Fallout: New Vegas
 RPG
 PC
-true
+0
 Fallout 4
 RPG
 PS4
-true
+0
 Hitman
 Stealth Action
 PS4
-true
+0
 Doom (2016)
 First Person Shooter
 PS4
-true
+0
 Doom
 First Person Shooter
 PC
-true
+0
 Doom 2
 First Person Shooter
 PC
-true
+0
 Doom Eternal
 First Person Shooter
 PS4
-true
+0
 Super Mario Odyssey
 Platformer
 Switch
-true
+0
 Alien: Isolation
 Horror
 PC
-true
+0
 Zoombinis
 Puzzle
 PC
-true
+0
 Phasmophobia
 Horror
 PC
-true
-Unravel
-Platformer
-PS4
-true
+0
 Final Fantasy X
 RPG
 PS2
-true
+0
 Elder Scrolls: Oblivion
 RPG
 PC
-true
+0
 It Takes Two
 Platformer
 PS4
-true
+0
 Hitman 2
 Stealth Action
 PS4
-true
+0
 Red Dead Redemption 2
 3rd Person Shooter
 PS4
-true
+0
 Grand Theft Auto 5
 3rd Person Shooter
 PC
-true
+0
 Hitman 3
 Stealth Action
 PS4
-true
+0
 Witcher 3: Wild Hunt
 RPG
 PC
-true
+0
 Horizon: Zero Dawn
 RPG
 PS4
-true
+0
 Doom (2016)
 First Person Shooter
 PC
-true
+0
 Borderlands 2
 First Person Shooter
 PC
-true
+0
 Far Cry 2
 First Person Shooter
 PC
-true
+0
 Payday 2
 First Person Shooter
 PC
-true
-Far Cry
-First Person Shooter
-PC
-true
+0
 Devour
 Horror
 PC
-true
+0
 Resident Evil 7
 Horror
 PS4
-true
+0
 Resident Evil 4
 Horror
 PS4
-true
+0
 Bioshock
 First Person Shooter
 PC
-true
+0
 Bioshock 2
 First Person Shooter
 PC
-true
+0
 Bioshock: Infinite
 First Person Shooter
 PC
-true
+0
 Far Cry 4
 First Person Shooter
 PS4
-true
+0
 Civilization 5
 Strategy
 PC
-true
+0
 Civilization 6
 Strategy
 Switch
-true
+0
 Spelunky
 Platformer
 PS4
-true
+0
 Spelunky 2
 Platformer
 Switch
-true
+0
 Sim City 4
 Strategy
 PC
-true
+0
 Far Cry 3
 First Person Shooter
 PC
-true
+0
 Braid
 Puzzle
 PC
-true
+0
 The Witness
 Puzzle
 PC
-true
+0
 The Bridge
 Puzzle
 Switch
-true
+0
 Baba Is You
 Puzzle
 Switch
-true
+0
 XCOM: Enemy Unknown
 Strategy
 PC
-true
+0
 Half-Life
 First Person Shooter
 PC
-true
+0
 Half-Life 2
 First Person Shooter
 PC
-true
+0
 Painkiller
 First Person Shooter
 PC
-false
+0
 Payday
 First Person Shooter
 PC
-true
+0
 FTL: Faster Than Light
 Strategy
 PC
-true
+0
 Antichamber
 Puzzle
 PC
-true
+0
 Outlast
 Horror
 PC
-false
+0
 Outlast 2
 Horror
 PS4
-true
+0
 Wargroove
 Strategy
 PC
-false
+0
 Black Mesa
 First Person Shooter
 PC
-true
-dfgdfg
-dgdf
-dfgdf
-false
+0
+Unravel 2
+Platformer
+PC
+0

@@ -1,14 +1,16 @@
 /**************************************************************
 * Name        : Final Project - The Ruane Database
 * Author      : Brian Ruane
-* Created     : 10/06/2021
+* Created     : 12/8/2021
 * Course      : CIS 152 – Data Structures
 * Version     : 1.0
 * OS          : Windows 10
 * Copyright   : This is my own original work based on
 *               specifications issued by our instructor
-* Description : This program creates a queue (created using list functions) and demonstrates
-*               some of the queue's functionality.
+* Description : This program is creates a list of owned videos games using a map. When new items are
+*               added they are put on a priority queue until they are marked as played. Items can
+*               be search using various search methods. The program menus are navigated using the
+*               numpad.
 * Academic Honesty: I attest that this is my original work.
 * I have not used unauthorized source code, either modified or
 * unmodified. I have not given other fellow student(s) access to
@@ -50,7 +52,7 @@ int main()
         getline(reader, temp.genre);
         getline(reader, temp.system);
         getline(reader, isPlayed);
-        if (isPlayed == "true"){
+        if (isPlayed == "0"){
             temp.played = true;
         }else{
             temp.played = false;
@@ -63,12 +65,14 @@ int main()
     }
     reader.close();
 
-
     //MAIN MENU DISPLAY AND INPUT
     while (input != 0){
     std::cout << "The Ruane Media Database!\nChoose an option to continue:\n";
     styleLine1();
-    std::cout << "1:Add Media\n2:Remove Media\n3:Next Unplayed Title\n4:Search By Name\n5:Search By Genre\n6:Search by System\n7:Search by ID\n8:List All\n9:List All Unplayed\n0:Quit\n";
+    std::cout << "1:Add Media\n2:Remove Media\n3:Next Unplayed Title\n4:Search By Name\n5:Search By Genre\n6:Search by System\n7:Search by ID\n8:List All\n9:List All Unplayed(Under Construction)\n0:Quit\n";
+   // for (int i = 0;i < unplayedQueue.size();++i){
+     //   std::cout << unplayedQueue.top();
+    //}
     std::cin >> input;
     std::cin.ignore();
     while (!std::cin || input < 0 || input > 9){
@@ -114,7 +118,8 @@ int main()
         break;
     }
     case 9:
-        listAllUnplayed(database,unplayedQueue);
+        //listAllUnplayed(database,unplayedQueue,keyID);
+        std::cout << "\nThis function is not available at this time.\n" << std::endl;
         break;
     }
     reader.close();

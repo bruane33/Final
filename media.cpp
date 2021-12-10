@@ -1,6 +1,7 @@
 #include "media.h"
 #include <iostream>
 
+//Media class
 Media::Media()
 {
     title = "N/A";

@@ -11,6 +11,7 @@ void styleLine2(){
     std::cout << "*[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]*\n";
 }
 
+//FUNCTION TO SHOW ALL ITEMS IN DATABASE
 void listAll(std::map<int,Media> &x){
     system("CLS");
     std::cout << "Full List of Available Games" << std::endl;
@@ -23,13 +24,39 @@ void listAll(std::map<int,Media> &x){
     styleLine2();
 }
 
-void listAllUnplayed(std::map<int,Media> &database, std::priority_queue<int, std::vector<int>, std::greater<int>> &unplayedQueue){
+//FUNCTION TO SHOW ALL UNPLAYED ITEMS ...WORK IN PROGRESS
+/*void listAllUnplayed(std::map<int,Media> &database, std::priority_queue<int, std::vector<int>, std::greater<int>> &unplayedQueue,std::vector<int>& keyID){
+    std::ofstream writer3;
+    writer3.open("C:/Users/Brian/Documents/CIS152 Data Structures/Final/saveditems.txt", std::ofstream::out | std::ofstream::trunc);
+    writer3.close();
+    std::ifstream reader("C:/Users/Brian/Documents/CIS152 Data Structures/Final/saveditems.txt");
+    if(!reader.is_open()){
+        std::cout << "Error opening database file." << std::endl;
+    }
+    while(!reader.eof()){
+        Media temp;
+        std::string isPlayed;
+        getline(reader, temp.title);
+        getline(reader, temp.genre);
+        getline(reader, temp.system);
+        getline(reader, isPlayed);
+        if (isPlayed == "0"){
+            temp.played = true;
+        }else{
+            temp.played = false;
+        }
+        database.insert({keyID.back(), temp});
+        if (temp.played == false){
+            unplayedQueue.push(keyID.back());
+        }
+        keyID.push_back(keyID.back()+1);
+    }
+    reader.close();
     system("CLS");
     std::vector<int> tempHold;
     std::cout << "List of Unfinished Games" << std::endl;
     std::cout << "Key ID:\t\t\t   Title:\t            Genre:     System:\n";
     for (unsigned long long i = 0; i < unplayedQueue.size(); ++i){ //problem
-        std::cout << unplayedQueue.top() << std::endl;
         tempHold.push_back(unplayedQueue.top());
         for(auto& find : database){
             if(find.first == unplayedQueue.top()){
@@ -42,8 +69,21 @@ void listAllUnplayed(std::map<int,Media> &database, std::priority_queue<int, std
         unplayedQueue.push(tempHold.at(i));
     }
     styleLine2();
-}
+    std::ofstream writer4;
+    writer4.open("C:/Users/Brian/Documents/CIS152 Data Structures/Final/saveditems.txt",std::ios::app);
+    for(auto& find : database){
+            writer4 << "\n" << find.second.title << "\n";
+            writer4 << find.second.genre << "\n";
+            writer4 << find.second.system << "\n";
+            if(find.second.played == true){
+                writer4 << "true";
+            }else{
+                writer4 << "false";
+            }
+    }
+}*/
 
+//FUNCTION TO DISPLAY OLDEST UNPLAYED ITEM
 void searchUnplayed(std::map<int,Media> &database, std::priority_queue<int, std::vector<int>, std::greater<int>> &unplayedQueue){
     system("CLS");
     int input;
@@ -92,6 +132,7 @@ void searchUnplayed(std::map<int,Media> &database, std::priority_queue<int, std:
     }
 }
 
+//FUNCTION TO ADD ITEM TO DATABASE
 void addMedia(std::map<int,Media>&database, std::priority_queue<int, std::vector<int>, std::greater<int>>&unplayedQueue, std::vector<int>&keyID){
     system("CLS");
     Media temp;
@@ -118,11 +159,19 @@ void addMedia(std::map<int,Media>&database, std::priority_queue<int, std::vector
     writer.close();
 }
 
+//FUNCTION TO SEARCH FOR ITEM BY NAME
 void searchByName(std::map<int,Media> &x){
     system("CLS");
     std::string search;
     std::cout << "Enter title to be searched:" << std::endl;
     std::getline(std::cin,search);
+    for(int i = 0; i < search.length(); ++i){
+        if (i==0){
+            search[i] = toupper(search[i]);
+        }else if(search[i-1] == ' '){
+            search[i] = toupper(search[i]);
+        }
+    }
     bool notFound = true;
     for(auto& find : x){
         if(find.second.title == search){
@@ -136,6 +185,7 @@ void searchByName(std::map<int,Media> &x){
     }
 }
 
+//FUNCTION TO SEARCH FOR ITEMS BY GENRE
 void searchByGenre(std::map<int,Media> &x){
     system("CLS");
     std::string search;
@@ -154,6 +204,7 @@ void searchByGenre(std::map<int,Media> &x){
     }
 }
 
+//FUNCTION TO SEARCH FOR ITEMS BY PLATFORM
 void searchBySystem(std::map<int,Media> &x){
     system("CLS");
     std::string search;
@@ -172,6 +223,7 @@ void searchBySystem(std::map<int,Media> &x){
     }
 }
 
+//FUNCTION TO SEARCH FOR ITEM BY ID NUMBER
 void searchByID(std::map<int,Media> &x){
     system("CLS");
     int search;
@@ -190,6 +242,7 @@ void searchByID(std::map<int,Media> &x){
     }
 }
 
+//FUNCTION TO REMOVE ITEM FROM DATABASE
 void removeMedia(std::map<int,Media> &database, std::priority_queue<int, std::vector<int>, std::greater<int>>& unplayedQueue){
     system("CLS");
     int erase;
